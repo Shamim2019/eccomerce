@@ -34,6 +34,7 @@ p{
 .section-m1{
     margin: 40px 0;
 }
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
@@ -455,6 +456,15 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+/* shop page */
+#page-header{
+    background-image: url(/products/banner9.jpg);
+    height: 50vh;
+    width: 100%;
+}
+
+
+
 @media (max-width:799px){
     .section-p1{
         padding: 40px 40px;
