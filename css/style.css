@@ -539,6 +539,19 @@ margin-bottom:  10px;
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+  
+
+/* blog page */
+#page-header.blog-header{
+background-image: url(/banner/bann2.jpeg);
+}
+
+
+
+
+
+
+
 
 @media (max-width:799px){
     .section-p1{
@@ -677,4 +690,14 @@ height: 40vh;
 footer .copyright{
     text-align: start;
 }
+/* single product */
+
+#prodentials{
+    display: flex;
+    flex-direction: column;
+}
+#prodentials .single-pro-image{
+    width: 100%;
+}
+
 }
