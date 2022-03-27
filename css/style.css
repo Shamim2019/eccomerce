@@ -376,8 +376,7 @@ box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
     color:#818ea0;
 }
 #newsletter p span{
-   
-    color:#ffbd27;
+   color:#ffbd27;
 }
 #newsletter input{
  height: 3.125rem;  
@@ -459,11 +458,48 @@ footer .copyright{
 /* shop page */
 #page-header{
     background-image: url(/products/banner9.jpg);
-    height: 50vh;
+    height: 40vh;
     width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
 }
-
-
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 14px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i{
+   font-size: 16px;
+   font-weight: 600;
+}
+/* single product */
+#prodetails .single-pro-image {
+width: 40%;
+margin-right: 50px;
+}
+.small-img-group{
+   display: flex; 
+   justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    
+}
 
 @media (max-width:799px){
     .section-p1{
