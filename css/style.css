@@ -536,7 +536,9 @@ margin-bottom:  10px;
     background-color:#088178;
     color:#fff;
 }
-
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
 
 @media (max-width:799px){
     .section-p1{
