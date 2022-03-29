@@ -600,11 +600,38 @@ object-fit: cover;
     color: #c9cbce;
     z-index: -9;
 }
+/* About page */
+ #page-header.about-header{
+background-image: url(/img/banner11.jpg);
+}
 
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head.img{
+    width: 50%;
+    height: auto;
+}
 
+#about-head div{
+   padding: 40px; 
+}
 
+#about-app{
+text-align: center;
+}
+#about-app .img{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px auto 0 auto;
+}
 
-
+#about-app .img img{
+width: 100%;
+border-radius: 20px;
+height:100% ;
+}
 
 @media (max-width:799px){
     .section-p1{
