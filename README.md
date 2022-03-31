@@ -28,6 +28,8 @@ The project code uses constructors in Javascript. The project makes use of proto
 ### Credits
 
 Many thanks to w3schools documentation and freecodecamp for availing resources online. I found their resources very useful throughout the course of my project. Their efforts in availing the resources was very instrumental in the success of my project. I would choose them over again and recommend any individual to check on their resources whenever they'd want anything code related.
+## Live link
+https://shamim2019.github.io/eccomerce/
 
 ## License and copyright
 
